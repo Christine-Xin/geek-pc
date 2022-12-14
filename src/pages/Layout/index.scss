@@ -1,0 +1,28 @@
+.logo{
+    width: 200px;
+    height: 60px;
+    background: url('../../assets/logo.png') no-repeat center / 160px auto;
+}
+.ant-layout{
+    height: 100%;
+}
+.ant-menu{
+    height: 100%;
+}
+.ant-layout-header{
+    padding:0 !important;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    .user-info{
+        color: white;
+    }
+    .user-name,.user-logout {
+        margin-right: 20px;
+        cursor: pointer;
+      }
+}
+.layout-content {
+    overflow-y: auto;
+  }
